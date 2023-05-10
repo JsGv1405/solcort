@@ -1,21 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { persona1,persona2,persona3,people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Inicio",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Nosotros",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Servicios",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Contactos",
   },
 ];
 
@@ -23,23 +23,30 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Facturación electrónica Ilimitada",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Factura sin límites y sin preocupaciones las veces que quieras con nuestra facturación ilimitada.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Respaldo de información",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Con nuestro servicio de respaldo, tendrás la tranquilidad de saber que tus datos están seguros y siempre disponibles.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Capacitación gratuita",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Descubre todo el potencial de nuestro sistema con nuestra capacitación sin costo alguno. ",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "soporte permanente",
+    content:
+      "Tendrás la asistencia que necesitas en cualquier momento del día para resolver tus dudas y mantener tu negocio funcionando sin problemas.",
   },
 ];
 
@@ -47,44 +54,44 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Han demostrado un alto nivel de competencia y profesionalismo en su enfoque hacia mi negocio. Siendo precisos y minuciosos en la gestión de mis registros financieros, asegurándose de que estén en orden y cumplan con todas las regulaciones y normativas aplicables.",
+    name: "Jeseni Illanes",
+    title: "Gerente General Servicios de transporte Victor Vaca M. S.A.",
+    img: persona1,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Estoy muy satisfecho con los servicios de contabilidad y auditoría que he recibido. Han sido un recurso confiable y profesional, y los recomiendo altamente a cualquier empresa que busque un servicio de contabilidad y auditoría de calidad.",
+    name: "Carolina Mancero",
+    title: "Gerente General Transporte de carga pesada TRANSTITANIC S.A.",
+    img: persona2,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Han estado disponibles para responder a mis preguntas y brindarme asesoramiento financiero estratégico, lo cual ha sido de gran valor para la toma de decisiones en el negocio.",
+    name: "Josselyn Soledispa",
+    title: "Asistente Administrativo Bluelectron S.A.",
+    img: persona3,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Clientes Satisfechos",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "CLIENTES QUE CONTRATARON NUESTROS SERVICIOS",
+    value: "600+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "CLIENTES QUE NOS VUELVEN A CONTRATAR",
+    value: "90%",
   },
 ];
 
